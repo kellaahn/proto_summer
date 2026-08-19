@@ -1,0 +1,392 @@
+*{
+    background-color: rgb(255, 255, 255);
+}
+
+.columns-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  position: absolute;
+  top: 20px;
+  left: 0;
+
+}
+
+.columns-copy .rect {
+  width: 40px;
+  position: relative;
+  
+}
+
+.d1 { height: 19px;  background: #ffffff; }
+.d2 { height: 189px; background: #ffffff; }
+.d3 { height: 189px; background: #ffffff; }
+.d4 { height: 189px; background: #ffffff; }
+.d5 { height: 319px; background: #ffffff; }
+
+.dlabel {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+  color: black;
+  font-size: 13px;
+  font-family: "Chiron Sung HK", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  white-space: nowrap;
+}
+
+.columns > div > .rect {
+  position: relative;
+}
+
+/* 클릭하면 여기 스타일이 적용돼요. color, font-family 등 원하는 값을 추가하세요. */
+.t1label.clicked,
+.t2label.clicked,
+.t3label.clicked,
+.t4label.clicked,
+.t5label.clicked { color: rgb(255, 0, 0); 
+    font-family: "Song Myung", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+}
+
+.t1label {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+  color: black;
+  font-size: 13px;
+  font-family: "Chiron Sung HK", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  white-space: nowrap;
+  opacity: 0;
+  animation: label-pop 4s linear both;
+}
+
+.r36 .t1label,
+.r31 .t1label,
+.r26 .t1label,
+.r21 .t1label,
+.r16 .t1label,
+.r11 .t1label,
+.r6  .t1label,
+.r1  .t1label {
+  animation: label-pop 3s linear infinite;
+}
+
+.r36 .t1label { animation-delay: 3s; }
+.r31 .t1label { animation-delay: 6s; }
+.r26 .t1label { animation-delay: 9s; }
+.r21 .t1label { animation-delay: 12s; }
+.r16 .t1label { animation-delay: 15s; }
+.r11 .t1label { animation-delay: 18s; }
+.r6  .t1label { animation-delay: 21s; }
+.r1  .t1label { animation-delay: 24s; }
+
+.t2label {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  color: black;
+  font-size: 13px;
+  font-family: "Chiron Sung HK", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  white-space: nowrap;
+  opacity: 0;
+  animation: label-pop 4s linear both;
+}
+
+@keyframes label-pop {
+  0%   { opacity: 0; }
+  2%   { opacity: 1; }
+  92%  { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.r37 .t2label,
+.r32 .t2label,
+.r27 .t2label,
+.r22 .t2label,
+.r17 .t2label,
+.r12 .t2label,
+.r7  .t2label,
+.r2  .t2label {
+  animation: label-pop 3s linear infinite;
+}
+
+.r37 .t2label { animation-delay: 3s; }
+.r32 .t2label { animation-delay: 6s; }
+.r27 .t2label { animation-delay: 9s; }
+.r22 .t2label { animation-delay: 12s; }
+.r17 .t2label { animation-delay: 15s; }
+.r12 .t2label { animation-delay: 18s; }
+.r7  .t2label { animation-delay: 21s; }
+.r2  .t2label { animation-delay: 24s; }
+
+.t3label {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+  color: black;
+  font-size: 13px;
+  font-family: "Chiron Sung HK", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  white-space: nowrap;
+  opacity: 0;
+  animation: label-pop 4s linear both;
+}
+
+.r38 .t3label,
+.r33 .t3label,
+.r28 .t3label,
+.r23 .t3label,
+.r18 .t3label,
+.r13 .t3label,
+.r8  .t3label,
+.r3  .t3label {
+  animation: label-pop 3s linear infinite;
+}
+
+.r38 .t3label { animation-delay: 3s; }
+.r33 .t3label { animation-delay: 6s; }
+.r28 .t3label { animation-delay: 9s; }
+.r23 .t3label { animation-delay: 12s; }
+.r18 .t3label { animation-delay: 15s; }
+.r13 .t3label { animation-delay: 18s; }
+.r8  .t3label { animation-delay: 21s; }
+.r3  .t3label { animation-delay: 24s; }
+
+.t4label {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  color: black;
+  font-size: 13px;
+  font-family: "Chiron Sung HK", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  white-space: nowrap;
+  opacity: 0;
+  animation: label-pop 4s linear both;
+}
+
+.r39 .t4label,
+.r34 .t4label,
+.r29 .t4label,
+.r24 .t4label,
+.r19 .t4label,
+.r14 .t4label,
+.r9  .t4label,
+.r4  .t4label {
+  animation: label-pop 3s linear infinite;
+}
+
+.r39 .t4label { animation-delay: 3s; }
+.r34 .t4label { animation-delay: 6s; }
+.r29 .t4label { animation-delay: 9s; }
+.r24 .t4label { animation-delay: 12s; }
+.r19 .t4label { animation-delay: 15s; }
+.r14 .t4label { animation-delay: 18s; }
+.r9  .t4label { animation-delay: 21s; }
+.r4  .t4label { animation-delay: 24s; }
+
+.t5label {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+  color: black;
+  font-size: 13px;
+  font-family: "Chiron Sung HK", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  white-space: nowrap;
+  opacity: 0;
+  animation: label-pop 4s linear both;
+}
+
+.r40 .t5label,
+.r35 .t5label,
+.r30 .t5label,
+.r25 .t5label,
+.r20 .t5label,
+.r15 .t5label,
+.r10 .t5label,
+.r5  .t5label {
+  animation: label-pop 3s linear infinite;
+}
+
+.r40 .t5label { animation-delay: 3s; }
+.r35 .t5label { animation-delay: 6s; }
+.r30 .t5label { animation-delay: 9s; }
+.r25 .t5label { animation-delay: 12s; }
+.r20 .t5label { animation-delay: 15s; }
+.r15 .t5label { animation-delay: 18s; }
+.r10 .t5label { animation-delay: 21s; }
+.r5  .t5label { animation-delay: 24s; }
+
+
+
+
+.noise{
+  position: fixed;
+  inset: 0;
+  z-index: 99;
+  pointer-events: none;
+
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.3'/%3E%3C/svg%3E");
+
+  opacity: 1;
+    mix-blend-mode: color-burn;
+
+}
+
+
+
+.columns {
+  display: flex;
+    flex-direction: row-reverse;
+  gap: 0;
+position: absolute;
+  top:20px;
+  right:30px;
+}
+
+.columns > div {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  gap: 0;
+}
+
+
+
+.column1 .rect {
+  width: 260px;
+}
+
+.column2 .rect {
+  width: 220px;
+}
+
+.column3 .rect {
+  width: 200px;
+}
+
+.column4 .rect {
+  width: 180px;
+}
+
+.column5 .rect {
+  width: 160px;
+}
+
+.column6 .rect {
+  width: 100px;
+}
+
+.column7 .rect {
+  width: 80px;
+}
+
+.column8 .rect {
+  width: 40px;
+}
+
+
+
+
+
+.r1 { height: 149px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB)); }
+.r2 { height: 189px; background: linear-gradient(to right, #055be6 var(--stopA), white 100%);}
+.r3 { height: 189px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
+.r4 { height: 189px; background: linear-gradient(to right, #055be6 var(--stopA), white 100%);}
+.r5 { height: 189px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
+
+.r6 { height: 129px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
+.r7 { height: 189px; background: linear-gradient(to right, #055be6 var(--stopA), white 100%);}
+.r8 { height: 189px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
+.r9 { height: 189px; background: linear-gradient(to right, #055be6 var(--stopA), white 100%);}
+.r10 { height: 209px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
+
+.r11 { height: 109px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB)); }
+.r12 { height: 189px; background: linear-gradient(to right, #055be6 var(--stopA), white 100%);}
+.r13 { height: 189px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
+.r14 { height: 189px; background: linear-gradient(to right, #055be6 var(--stopA), white 100%);}
+.r15 { height: 229px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
+
+.r16 { height: 89px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
+.r17 { height: 189px; background: linear-gradient(to right, #055be6 var(--stopA), white 100%);}
+.r18 { height: 189px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
+.r19 { height: 189px; background: linear-gradient(to right, #055be6 var(--stopA), white 100%);}
+.r20 { height: 249px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
+
+.r21 { height: 69px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
+.r22 { height: 189px; background: linear-gradient(to right, #055be6 var(--stopA), white 100%);}
+.r23 { height: 189px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
+.r24 { height: 189px; background: linear-gradient(to right,#055be6 var(--stopA), white 100%);}
+.r25 { height: 269px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
+
+.r26 { height: 49px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
+.r27 { height: 189px; background: linear-gradient(to right, #055be6 var(--stopA), white 100%);}
+.r28 { height: 189px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
+.r29 { height: 189px; background: linear-gradient(to right,#055be6 var(--stopA), white 100%);}
+.r30 { height: 289px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
+
+.r31 { height: 29px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
+.r32 { height: 189px; background: linear-gradient(to right,#055be6 var(--stopA), white 100%);}
+.r33 { height: 189px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
+.r34 { height: 189px; background: linear-gradient(to right, #055be6 var(--stopA), white 100%);}
+.r35 { height: 309px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
+
+.r36 { height: 19px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
+.r37 { height: 189px; background: linear-gradient(to right,#055be6 var(--stopA), white 100%);}
+.r38 { height: 189px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
+.r39 { height: 189px; background: linear-gradient(to right, #055be6 var(--stopA), white 100%);}
+.r40 { height: 319px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
+
+@property --stopA {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 0%;
+}
+
+@property --stopB {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 100%;
+}
+
+@keyframes stopA-move {
+  0%, 100% { --stopA: 0%; }
+  50% { --stopA: 50%; }
+}
+
+@keyframes stopB-move {
+  0%, 100% { --stopB: 100%; }
+  50% { --stopB: 50%; }
+}
+
+.columns > div > .rect:nth-child(odd) {
+  animation: stopB-move 4s ease-in-out infinite;
+}
+
+.columns > div > .rect:nth-child(even) {
+  animation: stopA-move 4s ease-in-out infinite;
+}
