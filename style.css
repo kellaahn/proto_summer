@@ -1,5 +1,5 @@
 *{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(240, 232, 229);
 }
 
 .columns-copy {
@@ -18,11 +18,11 @@
   
 }
 
-.d1 { height: 19px;  background: #ffffff; }
-.d2 { height: 189px; background: #ffffff; }
-.d3 { height: 189px; background: #ffffff; }
-.d4 { height: 189px; background: #ffffff; }
-.d5 { height: 319px; background: #ffffff; }
+.d1 { height: 19px;  background: rgb(240, 232, 229); }
+.d2 { height: 189px; background: rgb(240, 232, 229); }
+.d3 { height: 189px; background: rgb(240, 232, 229); }
+.d4 { height: 189px; background: rgb(240, 232, 229); }
+.d5 { height: 319px; background: rgb(240, 232, 229); }
 
 .dlabel {
   position: absolute;
@@ -313,53 +313,53 @@ position: absolute;
 
 
 
-.r1 { height: 149px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB)); }
-.r2 { height: 189px; background: linear-gradient(to right, #055be6 var(--stopA), white 100%);}
-.r3 { height: 189px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
-.r4 { height: 189px; background: linear-gradient(to right, #055be6 var(--stopA), white 100%);}
-.r5 { height: 189px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
+.r1 { height: 149px; background: linear-gradient(to right, rgb(240, 232, 229) 0%, #055be6 var(--stopB)); }
+.r2 { height: 189px; background: linear-gradient(to right, #055be6 var(--stopA), rgb(240, 232, 229) 100%);}
+.r3 { height: 189px; background: linear-gradient(to right, rgb(240, 232, 229) 0%, #055be6 var(--stopB));}
+.r4 { height: 189px; background: linear-gradient(to right, #055be6 var(--stopA), rgb(240, 232, 229) 100%);}
+.r5 { height: 189px; background: linear-gradient(to right, rgb(240, 232, 229) 0%, #055be6 var(--stopB));}
 
-.r6 { height: 129px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
-.r7 { height: 189px; background: linear-gradient(to right, #055be6 var(--stopA), white 100%);}
-.r8 { height: 189px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
-.r9 { height: 189px; background: linear-gradient(to right, #055be6 var(--stopA), white 100%);}
-.r10 { height: 209px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
+.r6 { height: 129px; background: linear-gradient(to right, rgb(240, 232, 229) 0%, #055be6 var(--stopB));}
+.r7 { height: 189px; background: linear-gradient(to right, #055be6 var(--stopA), rgb(240, 232, 229) 100%);}
+.r8 { height: 189px; background: linear-gradient(to right, rgb(240, 232, 229) 0%, #055be6 var(--stopB));}
+.r9 { height: 189px; background: linear-gradient(to right, #055be6 var(--stopA), rgb(240, 232, 229) 100%);}
+.r10 { height: 209px; background: linear-gradient(to right, rgb(240, 232, 229) 0%, #055be6 var(--stopB));}
 
-.r11 { height: 109px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB)); }
-.r12 { height: 189px; background: linear-gradient(to right, #055be6 var(--stopA), white 100%);}
-.r13 { height: 189px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
-.r14 { height: 189px; background: linear-gradient(to right, #055be6 var(--stopA), white 100%);}
-.r15 { height: 229px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
+.r11 { height: 109px; background: linear-gradient(to right, rgb(240, 232, 229) 0%, #055be6 var(--stopB)); }
+.r12 { height: 189px; background: linear-gradient(to right, #055be6 var(--stopA), rgb(240, 232, 229) 100%);}
+.r13 { height: 189px; background: linear-gradient(to right, rgb(240, 232, 229) 0%, #055be6 var(--stopB));}
+.r14 { height: 189px; background: linear-gradient(to right, #055be6 var(--stopA), rgb(240, 232, 229) 100%);}
+.r15 { height: 229px; background: linear-gradient(to right, rgb(240, 232, 229) 0%, #055be6 var(--stopB));}
 
-.r16 { height: 89px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
-.r17 { height: 189px; background: linear-gradient(to right, #055be6 var(--stopA), white 100%);}
-.r18 { height: 189px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
-.r19 { height: 189px; background: linear-gradient(to right, #055be6 var(--stopA), white 100%);}
-.r20 { height: 249px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
+.r16 { height: 89px; background: linear-gradient(to right, rgb(240, 232, 229) 0%, #055be6 var(--stopB));}
+.r17 { height: 189px; background: linear-gradient(to right, #055be6 var(--stopA), rgb(240, 232, 229) 100%);}
+.r18 { height: 189px; background: linear-gradient(to right, rgb(240, 232, 229) 0%, #055be6 var(--stopB));}
+.r19 { height: 189px; background: linear-gradient(to right, #055be6 var(--stopA), rgb(240, 232, 229) 100%);}
+.r20 { height: 249px; background: linear-gradient(to right, rgb(240, 232, 229) 0%, #055be6 var(--stopB));}
 
-.r21 { height: 69px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
-.r22 { height: 189px; background: linear-gradient(to right, #055be6 var(--stopA), white 100%);}
-.r23 { height: 189px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
-.r24 { height: 189px; background: linear-gradient(to right,#055be6 var(--stopA), white 100%);}
-.r25 { height: 269px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
+.r21 { height: 69px; background: linear-gradient(to right, rgb(240, 232, 229) 0%, #055be6 var(--stopB));}
+.r22 { height: 189px; background: linear-gradient(to right, #055be6 var(--stopA), rgb(240, 232, 229) 100%);}
+.r23 { height: 189px; background: linear-gradient(to right, rgb(240, 232, 229) 0%, #055be6 var(--stopB));}
+.r24 { height: 189px; background: linear-gradient(to right,#055be6 var(--stopA), rgb(240, 232, 229) 100%);}
+.r25 { height: 269px; background: linear-gradient(to right, rgb(240, 232, 229) 0%, #055be6 var(--stopB));}
 
-.r26 { height: 49px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
-.r27 { height: 189px; background: linear-gradient(to right, #055be6 var(--stopA), white 100%);}
-.r28 { height: 189px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
-.r29 { height: 189px; background: linear-gradient(to right,#055be6 var(--stopA), white 100%);}
-.r30 { height: 289px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
+.r26 { height: 49px; background: linear-gradient(to right, rgb(240, 232, 229) 0%, #055be6 var(--stopB));}
+.r27 { height: 189px; background: linear-gradient(to right, #055be6 var(--stopA), rgb(240, 232, 229) 100%);}
+.r28 { height: 189px; background: linear-gradient(to right, rgb(240, 232, 229) 0%, #055be6 var(--stopB));}
+.r29 { height: 189px; background: linear-gradient(to right,#055be6 var(--stopA), rgb(240, 232, 229) 100%);}
+.r30 { height: 289px; background: linear-gradient(to right, rgb(240, 232, 229) 0%, #055be6 var(--stopB));}
 
-.r31 { height: 29px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
-.r32 { height: 189px; background: linear-gradient(to right,#055be6 var(--stopA), white 100%);}
-.r33 { height: 189px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
-.r34 { height: 189px; background: linear-gradient(to right, #055be6 var(--stopA), white 100%);}
-.r35 { height: 309px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
+.r31 { height: 29px; background: linear-gradient(to right, rgb(240, 232, 229) 0%, #055be6 var(--stopB));}
+.r32 { height: 189px; background: linear-gradient(to right,#055be6 var(--stopA), rgb(240, 232, 229) 100%);}
+.r33 { height: 189px; background: linear-gradient(to right, rgb(240, 232, 229) 0%, #055be6 var(--stopB));}
+.r34 { height: 189px; background: linear-gradient(to right, #055be6 var(--stopA), rgb(240, 232, 229) 100%);}
+.r35 { height: 309px; background: linear-gradient(to right, rgb(240, 232, 229) 0%, #055be6 var(--stopB));}
 
-.r36 { height: 19px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
-.r37 { height: 189px; background: linear-gradient(to right,#055be6 var(--stopA), white 100%);}
-.r38 { height: 189px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
-.r39 { height: 189px; background: linear-gradient(to right, #055be6 var(--stopA), white 100%);}
-.r40 { height: 319px; background: linear-gradient(to right, white 0%, #055be6 var(--stopB));}
+.r36 { height: 19px; background: linear-gradient(to right, rgb(240, 232, 229) 0%, #055be6 var(--stopB));}
+.r37 { height: 189px; background: linear-gradient(to right,#055be6 var(--stopA), rgb(240, 232, 229) 100%);}
+.r38 { height: 189px; background: linear-gradient(to right, rgb(240, 232, 229) 0%, #055be6 var(--stopB));}
+.r39 { height: 189px; background: linear-gradient(to right, #055be6 var(--stopA), rgb(240, 232, 229) 100%);}
+.r40 { height: 319px; background: linear-gradient(to right, rgb(240, 232, 229) 0%, #055be6 var(--stopB));}
 
 @property --stopA {
   syntax: '<percentage>';
